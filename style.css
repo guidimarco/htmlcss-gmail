@@ -1,0 +1,88 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+
+.container{
+    margin: auto;
+    width: 1000px;
+}
+
+
+/* elementi HEADER */
+#logo{
+    width: 80px;
+}
+
+h1{
+    display: inline-block;
+    margin: 0;
+}
+
+
+/* elementi NAV */
+.go{
+    color: black;
+}
+
+#unread-mess{
+    display: block;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+#unread-count{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* elementi MAIN */
+.row{
+    border: 1px solid black;
+}
+
+.read{
+    background-color: lightgray;
+}
+
+.unread{
+    background-color: white;
+}
+
+.mail-subject{
+    display: inline-block;
+    width: 30%;
+}
+
+.subject{
+    font-weight: bold;
+    color: black;
+}
+
+.mail-body{
+    display: inline-block;
+    width: 68%;
+}
+
+.body-text{
+    color: grey;
+}
+
+/* elementi FOOTER */
+footer{
+    text-align: center;
+    font-style: italic;
+}
+
+#name-footer{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 150%;
+}
